@@ -1,0 +1,138 @@
+/* Body */
+body{
+  font-size: 120%; 
+  font-family: 'Trebuchet MS', Trebuchet, 'Lucinda Sans Unicode', 'Lucinda Grande', Arial, sans-serif;
+  line-height: 1.429;
+  background-color: white;
+}
+
+/* Header */
+header{
+  background-color: white;
+  margin: 0;
+  
+ 
+}
+header h1{
+    text-align: center;
+    color: #A16ABA;
+}
+
+header nav {
+  width: 100%;
+  background: #875C9C;
+ 
+}
+header nav ul{
+  width: 100%;
+  padding-bottom: .2em;
+  margin: 0;
+}
+header nav li {
+  display: inline-block;
+  padding: .5em 1rem;
+  border-left: 5px solid #ADBAB1;
+  min-width: 9.5%;
+  text-align: center;
+}
+header nav li:first-of-type {border-left: none;}
+
+
+header nav li a{
+  width: auto;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.mainsection{
+  top:0;
+  bottom:0;
+  border: 3px solid orange;
+  background-color: #8F54AB;
+}
+
+.sidebar{
+  width: 20%;
+  float: left;
+  background-color: #8F54AB;
+  border: 2px solid green;
+  height: 100%;
+  min-height: 100%;
+}
+.sidebar ul{
+  height: 100%;
+}
+.sidebar li{
+  list-style-type: none;
+  padding-right: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+.sidebar li:first-of-type {padding-top: 1.5rem;}
+.sidebar li a{
+  width: auto;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-bottom: 0%;
+}
+
+.sidebar h4{
+  margin: 0; 
+  padding: 0;
+ 
+}
+
+.sidebar p{
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.sidebar img{
+  float: left;
+}
+section{
+  overflow: auto;
+  text-align: center;
+  /*background-color: #8F54AB;*/
+  background-color: #E5DFE8;
+}
+
+.content{
+  background-color: #E5DFE8;
+  border: 5px solid red;
+  padding-top: 10%;
+  padding-bottom: 10%;  
+  padding-left: 10%;  
+  padding-right: 10%;  
+  overflow: auto;
+}
+
+.content img{
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.newspaper{
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  text-align: left;
+}
+
+footer{
+  clear: right;
+  margin: 0px auto;
+  padding-bottom: 60px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  text-align: center; /* center the copyright text */
+}
+
+footer img{
+  padding: 10px;
+  height: 42px;
+  width: 42px; 
+}
+
+
